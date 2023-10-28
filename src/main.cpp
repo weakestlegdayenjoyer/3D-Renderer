@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <iostream>
 
 int main()
 {
-	printf("Hello World!");
+	char v = '!';
+	std::cout << "Hello World " << v;
 }
